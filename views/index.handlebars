@@ -1,4 +1,4 @@
-<h1>Burgers!</h1>
+<div class = "jumbotron"><h1 class="display-4">Eat-Da-Burger!</h1> <img src="/assets/img/goodburger.jpg" alt=""></div>
 
 <div id="main">
   <div id="undevoured">
@@ -7,7 +7,7 @@
     <ul>
       {{#each burgers}}
       {{#unless devoured}}
-      <li>{{this.name}} <button data-id={{this.id}} class="change-devoured"> Devour! </button></li>
+      <li>{{this.name}} <button data-id={{this.id}} class="change-devoured btn btn-light"> Devour! </button></li>
       {{/unless}}
       {{/each}}
     </ul>
@@ -19,7 +19,7 @@
     <ul>
       {{#each burgers}}
       {{#if devoured}}
-      <li>{{this.name}} <button data-id={{this.id}} class="delete-burger">Delete</button></li>
+      <li>{{this.name}} <button data-id={{this.id}} class="delete-burger btn btn-light">Delete</button></li>
       {{/if}}
       {{/each}}
     </ul>
@@ -36,7 +36,7 @@
     <input type="text" id="burger" name="name">
   </div>
 
-  <button type="submit">Add burger</button>
+  <button type="submit" class = "btn btn-danger">Add burger</button>
 </form>
 
 </div>
