@@ -2,7 +2,7 @@
 
 ### Overview  
 
- Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Each burger in the `Ready to Eat` area also has a `devour it` button. When a user clicks it, the burger will move to the devoured section. In the devoured section, you can also delete burgers you no longer wish to see on the display and in the database. This app will store every burger in the database, whether devoured or not.  
+ Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Each burger in the `Ready to Eat` area also has a `devour it` button. When a user clicks it, the burger will move to the devoured section. In the devoured section, the user can also delete burgers from the display and database. This app will store every burger in the database, whether devoured or not.  
 
 
 
