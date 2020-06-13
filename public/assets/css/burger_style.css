@@ -1,20 +1,39 @@
 li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
-  
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+#undevoured {
+  border: 1px solid black;
+  width: 50%;
+}
+
+#devoured {
+  border: 1px solid black;
+  width: 50%;
+}
+h1 {
+  color: red;
+}
+#main {
+  display: flex;
+  justify-content: space-around;
+}
+#addburger {
+border: 1 px solid black;
+}

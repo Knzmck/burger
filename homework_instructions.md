@@ -1,12 +1,37 @@
-# Node Express Handlebars
+# Eat-Da-Burger
 
 ### Overview
 
-In this assignment, you'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
+ Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Each burger in the waiting area also has a `devour it` button. When a user clicks it, the burger will move to the devoured section. This app will store every burger in the database, whether devoured or not.  
 
-### Read This
 
-When trying to connect remotely to your Heroku database on an open network such as a coffee shop, library, or even your University WiFi, it will be blocked. If you are experiencing a Heroku connection error, this could be why.
+
+ ### Installation  
+
+This app uses node, express, MySQL, Handlebars and a homemade ORM.   
+
+
+## Developer  
+
+   <div class="CircleBadge CircleBadge--medium bg-gray-dark">
+   <img src="https://avatars.githubusercontent.com/Knzmck" height="90" width="90">   
+   </div>  
+   Kenzie Schutz   
+
+  ## Questions  
+
+   Please direct all questions the developer to github user Knzmck.   
+
+
+
+   [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)  
+
+
+
+
+
+
+   
 
 ### Important
 
@@ -14,7 +39,7 @@ When trying to connect remotely to your Heroku database on an open network such 
 
 ### Before You Begin
 
-* Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+
 
 * Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
 
