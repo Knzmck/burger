@@ -39,7 +39,6 @@ var orm = {
     });
   },
   create: function (table, cols, vals, cb) {
-    console.log("orm.js")
     var queryString = "INSERT INTO " + table;
 
     queryString += " (";
@@ -48,8 +47,6 @@ var orm = {
     queryString += "VALUES (";
     queryString += printQuestionMarks(vals.length);
     queryString += ") ";
-
-    console.log(queryString);
 
     connection.query(queryString, vals, function (err, result) {
       if (err) {
@@ -68,7 +65,6 @@ var orm = {
     queryString += " WHERE ";
     queryString += condition;
 
-    console.log(queryString);
     connection.query(queryString, function (err, result) {
       if (err) {
         throw err;
